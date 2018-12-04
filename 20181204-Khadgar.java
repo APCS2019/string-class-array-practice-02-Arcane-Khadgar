@@ -17,6 +17,7 @@ public class Phrase
     {
         /* implementation not shown */
         int loc = currentPhrase.indexOf(str);
+        int count = 1;
         return loc;
     }
 
