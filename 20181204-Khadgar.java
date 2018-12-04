@@ -17,6 +17,10 @@ public class Phrase
     {
         /* implementation not shown */
         int loc = currentPhrase.indexOf(str);
+        int count = 1;
+        while(count != n && loc != -1){
+            
+        }
         return loc;
     }
 
